@@ -1,9 +1,12 @@
-﻿namespace ChatbutlerTest
+﻿using System.IO;
+
+namespace ChatbutlerTest
 {
     internal class Butler
     {
         public Butler()
         {
+            string json = File.ReadAllText("greetings.json"); //click op File en ctrl+. en kies eerste
         }
 
         //maak een butler die kan groeten
